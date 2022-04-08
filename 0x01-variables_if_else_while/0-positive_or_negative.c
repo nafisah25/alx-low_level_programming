@@ -5,7 +5,7 @@
 /**
   *main - prints is positive, negative
   * or zero
-Return: returns zero if programs exits well
+Return: Always 0 (correct)
 */
 int main(void)
 {
@@ -28,4 +28,3 @@ int main(void)
 	}
 	return (0);
 }
-
