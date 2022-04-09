@@ -3,20 +3,18 @@
 #include <stdio.h>
 
 /**
-  * main - prints is posetive, negative
-  * or zero
-  *Return: returns zero if program exits well.
+  * main - 
+  * 
+  *Return: returns zero if exits correctly.
    */
 int main(void)
 {
-	char c = 'a';
-	while
-		(c <= 'z')
-
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
-	return (0);
+char r :
+for (r = 'a' : r <= 'z' : r ++)
+{
+putchar(c);
+++;
+}
+putchar('\n');
+return (0);
 }
