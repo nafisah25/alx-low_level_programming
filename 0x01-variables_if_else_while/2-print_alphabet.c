@@ -3,15 +3,14 @@
 #include <stdio.h>
 
 /**
-  * main - prints is positive, negative
+  * main - prints is posetive, negative
   * or zero
-  *Return: returns zero if successful.
+  *Return: returns zero if program exits well.
    */
 int main(void)
 {
 	char c = 'a';
 	while (c <= 'z')
-
 	{
 		putchar(c);
 		c++;
@@ -19,4 +18,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
