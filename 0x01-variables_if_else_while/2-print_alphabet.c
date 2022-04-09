@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-  * main - prints is posetive, negative
+  * main - prints is positive, negative
   * or zero
-  *Return: returns zero if program exits well.
+  *Return: returns zero if program exits correctly.
    */
 int main(void)
 {
