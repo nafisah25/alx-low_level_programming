@@ -3,20 +3,20 @@
 #include <stdio.h>
 
 /**
-  * main - prints positive, negative
-  * or zero
-  *Return: returns zero if run well.
-   */
-int main(void)
-{
-	char c = 'a';
-	while (c <= 'z')
+  * main - Entry point
+  *
+  * Return: Always 0 (Success)
+  */
 
-}
-		putchar(c);
-		c++;
+int main(void)
+
+{
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
 	}
-	putchar('\n');
+	putchar('\n')
 	return (0);
 }
-
