@@ -3,20 +3,19 @@
 #include <stdio.h>
 
 /**
-  * main - Entry point
-  *
-  * Return: Always 0
+  * main - prints positive, negative
+  * or zero
+  * Return: returns zero if program exits well.
   */
-
 int main(void)
-
 {
-	char ch;
+	char c = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (c <= 'z')
 	{
-		putchar(ch);
+		putchar(c);
+		c++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
