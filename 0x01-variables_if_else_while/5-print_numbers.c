@@ -3,17 +3,14 @@
 /**
   * main - prints positive, negative
   * or zero
-  * Return: returs 0 if exits successfully.
+  * Return: returns 0 if exits successfully.
   */
 int main(void)
 {
-	int num = 0;
+	int n;
 
-	while (num <= 9)
-	{
-		printf("%d", num);
-		num = num + 1;
-	}
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
 	printf('\n');
 	return (0);
 }
