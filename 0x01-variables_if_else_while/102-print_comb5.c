@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
-  * main - printa either positive, negative or zero
+  * main - print oositive, negative or zero
   *
-  * Return: returns 9 if runs successfully.
+  * Return: return 0
   */
 int main(void)
 {
 	int c = 0;
 	int f_d;
 	int l_d;
+
 	int c2;
 	int f_d2;
 	int l_d2;
@@ -23,9 +23,9 @@ int main(void)
 
 		while (c2 <= 99)
 		{
-			f_d = (c / 10 + '0');
-			l_d = (c % 10 + '0');
-			
+			f_d2 = (c2 / 10 + '0');
+			l_d2 = (c2 % 10 + '0');
+
 			if (c < c2)
 			{
 				putchar(f_d);
@@ -47,3 +47,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
