@@ -2,8 +2,7 @@
 #include <stdlib.h>
 /**
   * main - entry point
-  * Return: returns 0 if exits successfully.
-  * 
+  * Return: returns 0 if exits successfully. 
   */
 int main(void)
 {
