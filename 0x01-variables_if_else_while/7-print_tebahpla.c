@@ -5,7 +5,7 @@
   *
   * Return: returns 0 if exits successfully.
   */
-int main (void)
+int main(void)
 {
 	char c = 'z';
 
