@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-  * print_sign - check the code.
-  * @n: to check the code.
+  * print_sign - check numbers.
+  * @n: number to check
   * Return: Always 0.
   */
 
@@ -23,4 +23,8 @@ int print_sign(int n)
 	else
 	{
 		test = (-1);
-		_putchar('-')
+		_putchar('-');
+	}
+
+	return (test);
+}
