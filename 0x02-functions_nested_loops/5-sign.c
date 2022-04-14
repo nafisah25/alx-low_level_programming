@@ -7,19 +7,29 @@
   */
 int print_sign(int n)
 {
+	int r;
+
 	if (n > 0)
 	{
+		r = 1;
 		_putchar('+');
-		return (1);
+		_putchar(r + '0');
+		_putchar('\n');
 	}
-	else if (n < 00)
+	else if (n < 0)
 	{
+		r = -1;
 		_putchar('-');
-		return (-1);
+		_putchar(r + '0');
+		_putchar('\n');
 	}
 	else
 	{
+		r = 0;
 		_putchar(0);
-		return (0);
+		_putchar(r + '0');
+		_putchar('\n');
 	}
+
+	return (r);
 }
