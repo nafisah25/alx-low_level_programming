@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  *print_diagonal - draw a diagonal line on the terminal
-  * @n: number of times \ should be printed
-  * Return: nothing
+  * print_diagonal - prints a diagonal line
+  * @n: parameters to check the code
   */
+
 void print_diagonal(int n)
 {
 	if (n <= 0)
@@ -24,7 +24,7 @@ void print_diagonal(int n)
 				else if (j < i)
 					_putchar(' ');
 			}
-			putchar('\n')
+			_putchar('\n');
 		}
 	}
 }
