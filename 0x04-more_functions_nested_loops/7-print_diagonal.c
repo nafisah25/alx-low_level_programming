@@ -4,7 +4,6 @@
   * print_diagonal - prints a diagonal
   * @n: parameters used to chrck the code
   */
-
 void print_diagonal(int n)
 {
 	if (n <= 0)
