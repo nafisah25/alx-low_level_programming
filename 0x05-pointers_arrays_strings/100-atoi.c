@@ -17,8 +17,7 @@ int _atoi(char *s)
 	while (*s)
 	{
 		if (*s == '-')
-			sign *= -1;
-		
+			sign *= -1;		
 		if (*s >= '0' && *s <= '9')
 		{
 			null_flag = 1;
@@ -29,7 +28,6 @@ int _atoi(char *s)
 			break;
 		s++;
 	}
-	
 	if (sign < 0)
 		total = (-total);
 
